@@ -9,6 +9,7 @@ for i in range(0,len(words)-1):
             win="Победил Петя"
         else:
             win = "Победил Вася"
+        break
 
 if win=="":
  if len(words)%2==0:
